@@ -1,0 +1,14 @@
+# Environment files
+.env
+app/.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# VS Code
+.vscode/

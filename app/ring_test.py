@@ -12,6 +12,10 @@ sdk = SDK(
     SERVER_URL
 )
 
+print("CLIENT_ID:", os.getenv("RC_CLIENT_ID"))
+print("CLIENT_SECRET:", os.getenv("RC_CLIENT_SECRET"))
+print("JWT_TOKEN:", os.getenv("RC_JWT_TOKEN"))
+
 platform = sdk.platform()
 platform.login(jwt=JWT_TOKEN)
 
